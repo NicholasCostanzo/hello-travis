@@ -1,0 +1,10 @@
+language: node_js
+deploy:
+  provider: openshift
+  user: NicholasCostanzo
+  password:
+    secure: nqG8326w7g7VOrwjCjLFbj0IK/1MbzMMxfseXfa3EBtvKFvQdZ2Ue5KujgRSNU6bV+Mk3rMWZZe1yKV47+N7NF+e8WpSn3QVpcZ51WYoXXRMYqqOpKExn2bs4Y+tWJOHJz2oikOiBRuOTS2Dg6UvSsjX78aGUBDjV24ksXy0zvHRizcydlRArZEMZ0CQgRaypGgA98Dpp79NJhSdAHR67FdHbQYDlFq4JRj3pYuCgVHsvrR/ujsGJ9etSdKvrCCAE0ygUMP54qgAFewHOLlvAOqbIiTL2TNBin2T3kUijXIFq0qekn12mjRmADVKQ9CadQNKx1RZK995U7uln8ADn0peGd1W+S57qElNlFtLb3W7VVRDkLhKP+7R+T/Vnb5VV411qW/Yrjif0K1KT9hQ8HvzeMH0uP4kqW6uLO8Fk/V3YDUoOaTBR3K1LGg9+l6VS2pJ0bQutdwU9at+cqIZOga/TIzgykYDcbYQqOZDM+7sKPyUT+nquxZPUXnpPRtiCQ88keW2GlkwBsaotOeChm++s6k5EpQqt3znwX6mdnIg3+3rf+Zn0drFhmBzSOxqU/z/s7JgZITGvc6ZELoz+k3lNhR6WiVYz+fQXuUz8Uq7TXVNABKMG6Ws1cZc94zUlSM7MgRw28y6GaKXm41ZV8c2Hs1x8ua19ABIfBuOezw=
+  app: hello-travis
+  domain: https://ocp.thinglab.io:8443
+  on:
+    repo: NicholasCostanzo/hello-travis
