@@ -1,0 +1,22 @@
+{
+  "name": "hello-travis",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicholasCostanzo/hello-travis.git"
+  },
+  "author": "NicholasCostanzo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NicholasCostanzo/hello-travis/issues"
+  },
+  "homepage": "https://github.com/NicholasCostanzo/hello-travis#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
